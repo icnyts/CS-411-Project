@@ -1,0 +1,14 @@
+
+Proposal 1
+
+The software application BeatCollector (name pending) is a music and gaming application that utilizes Spotify APIs and IBMs tone analyzer to introduce users to new music that influences gameplay through speed and intensity of in game events. 
+
+The function of the application is to introduce a wide range of music and influence gameplay based on the features of the songs being played. The goal of the application is make finding new music fun by coupling it with interactive gameplay. The gaming industry is constantly evolving with the advent of AR and VR and developers continue to break expectations for what constitutes interactivity in video games. As such, we wish to explore the boundaries of interactive gaming by using music to influence how a game is played, something we feel hasn’t been explored despite the evolution of machine learning models that make it easier than ever to analyze music. From Spotify APIs, we are planning to utilize their audio analysis and playback functionalities. For songs with lyrics, IBMs tone analyzer will be used to identify dominant tones which will be used with the audio analysis to influence the event generator. The game will use Spotify or Facebook as a third-party authentication.
+
+_______________________
+
+Proposal 2
+
+The software application Aztro_World (name pending) is a dating application that utilizes Horoscope APIs and Event collection data to match individuals based on their Astrological signs. The current candidate for Astrology API’s are Horoscopes, White Label Daily Horoscopes and Aztro. 
+
+The function of the application is to find compatible matches based on their distance, preference, and Astrological Sign. The goal of the application is to match individuals and then provide an event nearby them to go to that they would enjoy together based on their profiles created. For event search API’s we are considering Eventful, Google Calendar and Zvents. The program will use Twitter and Instagram as a third-party authentication since the application is a social one it is best if used with very popular social media. 
