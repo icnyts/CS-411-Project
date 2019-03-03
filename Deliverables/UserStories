@@ -1,0 +1,34 @@
+Primary User Stories
+
+1) As a user, I should be able to log in with my Spotify account so that I can save my progress in the game.
+
+When users load up the webpage, they will be prompted with the main screen where they will be able to use their Spotify information to log in to the game. If they are unable to log in, they will be prompted with an error message to try again with a different username or password. If the user does not have a Facebook or Spotify account they will be prompted to make one. If the user does not remember their login credentials, they will have to find/reset their account information through the third party.
+
+
+2) As a logged in user, I should be able to view my statistics in the game so that I can view my progress.
+
+When users log in, there will be a drop-down menu screen where they can choose to view their historical records and activities. The statistics will pop up in a new window, where the user may view their collected songs and beats. 
+  
+  
+3) As a user, I should be able to collect songs by playing this game so that I can discover new music.
+
+While playing the game, the user will collect “beats” automatically and with increased frequency through purchases with in game currency, which will allow them to unlock songs and genres of music via milestones and purchases. The game will automatically save the state of the user after large milestone and purchases so that if anything goes wrong, they will be able to load up their most recent progress in the game.
+
+
+4) As a logged in user, I should be able to save music that I like so that I could add it to my Spotify library. 
+
+While viewing their statistics in the game, the user will have the option to transfer their collected songs to their Spotify library. If the song is unable to be transferred, there will be an error pop up screen for the user and the song will be saved to a database for later access. 
+
+
+---------------------------------------
+
+Secondary User Stories
+
+5) As a logged in user, I should have my own profile page, with information specific to me.
+
+The profile will be created when the user initially logs in with their Spotify account. Progress and achievements will be save to the user’s profile.
+
+6) As a user, I should be able to determine the genre and vibe I would like to play the game.
+
+When the user loads the game, they will be prompted to choose a genre that they would like to begin with. Throughout the game, they will be able to unlock more genres as they progress.
+
