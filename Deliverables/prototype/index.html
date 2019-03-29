@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simple song finder using Genius API</title>
+  
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <head>
+<link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
+</head>
+<body> 
+<div class="container-fluid" >
+  <div class="row text-center">
+    <h2>SONG INFORMATION</h2><br>
+  </div>
+  <div class="row text-center">
+    <div class="col-xs-6 text-right" id="songImage"></div>
+    <div class="col-xs-6 text-left">
+      <p id="song"></p>
+      <p id="artist"></p>
+      <p id="releaseDate"></p>
+      <!--<button class="button" onclick="newRandomSong()"><span>NEW SONG</span></button>-->
+      Enter song: <input type="text" name="songname" id="songname"><br>
+      <br>
+       <button onclick="getSongID()">Submit</button>
+      
+
+    </div>
+  </div>
+  <!--<div class="row text-center">
+    <button class="button" onclick="newRandomSong()"><span>NEW SONG</span></button>
+  </div>-->
+</div>
+</body> 
+
+<!-- Colours 
+RGB: 41, 41, 41
+RGB: 255, 255, 100
+RGB: 153, 167, 238
+RGB: 255, 20, 100
+-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
