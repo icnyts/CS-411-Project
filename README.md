@@ -19,4 +19,4 @@ How to start:
 1. Go to client folder: npm i && npm start
 2. Go to server folder: npm i && npm run dev  
 
-Ensure there is .key file under server/certs, called server.key
+Please ensure there is .key file under react-auth-server/certs, called server.key
