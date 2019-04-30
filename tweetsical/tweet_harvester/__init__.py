@@ -9,7 +9,7 @@ import spotipy.util as util
 import random
 import psycopg2
 
-connection = psycopg2.connect(user = "postgres", password = "abhamofo", host = "127.0.0.1", port = "5432", database = "postgres")
+connection = psycopg2.connect(user = "postgres", password = "", host = "127.0.0.1", port = "5432", database = "postgres")
 
 cur = connection.cursor()
 #from api_functions import authenticate_spotify, create_playlist
@@ -19,10 +19,10 @@ cur = connection.cursor()
 
 #app.config.from_object('config')
 
-TWITTER_CONSUMER_KEY = 'vDB8EbdZAqzgpNoXzkxG8kkv6'
-TWITTER_CONSUMER_SECRET = 'K7DIcCspXismWxZjU9KB4jdX0WOJS1JkHsqTX8iqChuHMLn9tj'
-TWITTER_ACCESS_TOKEN = '782072042619215872-WNz8dJi1dY4mMGgNlYSx7MoeJbxtSWY'
-TWITTER_ACCESS_TOKEN_SECRET = 'wyoot9T6ukOsE0Wz9fISUAPg05rFC4pFg58lgOR0kOvW9'
+TWITTER_CONSUMER_KEY = ''
+TWITTER_CONSUMER_SECRET = ''
+TWITTER_ACCESS_TOKEN = ''
+TWITTER_ACCESS_TOKEN_SECRET = ''
 
 # These config variables come from 'config.py'
 auth = tweepy.OAuthHandler(TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET)
@@ -30,15 +30,15 @@ auth.set_access_token(TWITTER_ACCESS_TOKEN, TWITTER_ACCESS_TOKEN_SECRET)
 tweepy_api = tweepy.API(auth)
 
 ta_username = 'apikey'
-ta_password = 'eoVcBFdhSvjq5bXyOR9inUc75E_TEUwlZ90eLVT2aHE6'
+ta_password = ''
 
-client_id = '35acf306c8dd4e9384ce0819f058e844'
-client_secret = 'aa720c6d7bae46b0901f19078ade5326'
+client_id = ''
+client_secret = ''
 redirect_uri = 'https://localhost:8080/'
 
 scope = 'user-library-read user-top-read playlist-modify-public user-follow-read'
 
-#spotify_user = 'marydao97'
+#spotify_user = ''
 #token = util.prompt_for_user_token(spotify_user, scope, client_id, client_secret, redirect_uri)
 
 def authenticate_spotify(token):
