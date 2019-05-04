@@ -1,0 +1,11 @@
+Tech Stack
+
+Python, JavaScript
+Flask - Backend framework
+Jinja2 - Template engine
+HTML/CSS, Jquery - Frontend framework
+
+When developing Tweetsical, the group had to decide on which language and methods we wanted to use. The back end of the application was written in Python with Flask framework, where the API calls are made. The availability of open source libraries to send REST requests to the various APIs made this the right choice. The front end was designed in HTML/CSS to display the results from the API calls.
+
+Tweetsical uses various Python libraries to validate user inputs, make API calls, and return the data. For the twitter auth, we use a Python library called Tweepy to connect with the user’s inputted twitter account and get back profile information, including the most recent tweets. We then passed twitter history to IBM Watson API to perform tone analysis and passed the results from the tone analysis to the Spotify API to create a playlist for users in their Spotify account. We used Spotipy, a library that allows us to make REST requests to the API in Python, to authenticate a user’s account and create a playlist in their library.
+
