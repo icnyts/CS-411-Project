@@ -1,0 +1,21 @@
+Primary User Stories
+
+1) As a user, I should be able to log in with my Spotify account so that I can save playlists to my library.
+
+When users load up the webpage, they will be prompted to use their Spotify information to log in to the game. If they are unable to log in, they will be prompted with an error message to try again with a different username or password. If the user does not have a Spotify account they will be prompted to make one. If the user does not remember their login credentials, they will have to find/reset their account information through the third party.
+
+
+2) As a logged in user, I should be able to use anyone’s tweets to generate a playlist based on their current mood.
+
+After users log in to their Spotify account, they will be prompted to enter a Twitter handle. This Twitter handle will be used to generate a playlist based on the most recent tweets. This allows a user to generate a playlist based on their favorite celebrities’ moods (or friends, family etc.)
+  
+  
+3) As a user, I should be able to discover new music in a fun and easy way.
+
+This application reduces the amount of work that the user needs to do in order to find new music and it also automatically places the playlist into their Spotify library. The user can input different handles to see how other people have been feeling as well.
+
+4) As a logged in user, I should be able to save or delete the playlists created for me by the application.
+
+After the application generates the playlist and places it into the user’s Spotify library, the user can then go to their Spotify and decide to either keep or delete the playlist. The user can also modify the playlist by adding or delete the songs however they like.
+
+
